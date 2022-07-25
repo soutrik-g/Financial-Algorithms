@@ -40,7 +40,6 @@ for symbol_string in symbol_strings:
 portfolio_size = input("Enter the size of your portfolio:")
 try:
     val = float(portfolio_size)
-    print(val)
 except ValueError:
     print("Not a number! \nPlease try again:")
     portfolio_size = input("Enter the size of your portfolio:")
